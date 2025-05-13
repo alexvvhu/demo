@@ -10,9 +10,15 @@ git reset --hard
 
 -- 14 版本穿梭
 -- 15 16 分支
+-- 17 合并 冲突合并
 
 git branch hot-fix
 git checkout hot-fix
 git branch -v 
 git checkout master
 git merge hot-fix
+
+-- 20 建库
+git remote -v
+git remote add demo https://github.com/alexvvhu/demo.git
+-- 21 推送
