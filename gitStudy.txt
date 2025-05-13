@@ -10,3 +10,6 @@ git reset --hard
 
 -- 14 版本穿梭
 -- 15 16 分支
+
+git branch hot-fix
+git branch -v 
