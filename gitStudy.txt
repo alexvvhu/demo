@@ -12,4 +12,7 @@ git reset --hard
 -- 15 16 分支
 
 git branch hot-fix
+git checkout hot-fix
 git branch -v 
+git checkout master
+git merge hot-fix
